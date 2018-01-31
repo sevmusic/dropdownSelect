@@ -10,14 +10,16 @@ It's as easy as:
      &lt;option value="4"&gt; Option 4 &lt;/option&gt;
 &lt;/select>
 </pre>
-<pre>
-$('select.form-control').dropdownSelect();
-</pre>
 
-Add the dropdownSelect.js BEFORE adding the bootstrap.js file. My script will add all the necessary HTML and then bootstrap will do it's dropdown magic afterwards.
+Add the dropdownSelect.js BEFORE adding the bootstrap.js file. My script will add all the necessary HTML and then bootstrap will do it's dropdown magic afterwards:
 <pre>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="path/to/dropdownSelect.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</pre>
+
+Then apply the function to all select input fields:
+<pre>
+$('select.form-control').dropdownSelect();
 </pre>
