@@ -16,12 +16,12 @@ Add the css to hide the select fields and handle the text alignment. You might h
 &lt;link rel="stylesheet" href="path/to/dropdownSelect.css"&gt;
 </pre>
 
-Add the dropdownSelect.js BEFORE adding the bootstrap.js file. My script will add all the necessary HTML and then bootstrap will do it's dropdown magic afterwards:
+Add the dropdownSelect.js.
 <pre>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="path/to/dropdownSelect.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="path/to/dropdownSelect.js"></script>
 </pre>
 
 Then apply the function to all select input fields:
