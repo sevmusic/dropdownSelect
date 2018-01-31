@@ -1,5 +1,5 @@
 select.form-control {
-  display: none;
+  display: none !important;
 }
 .dropdown-select {
   display: block;
