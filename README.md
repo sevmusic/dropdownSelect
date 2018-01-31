@@ -3,12 +3,12 @@ Make Bootstrap 4 dropdown menus out of select inputs.
 
 It's as easy as:
 <pre>
-<select class="form-control" name="select2" id="select2">
-     <option value="1"> Option 1 </option>
-     <option value="2"> Option 2 </option>
-     <option value="3"> Option 3 </option>
-     <option value="4"> Option 4 </option>
-</select>
+&lt;select class="form-control" name="select2" id="select2">
+     &lt;option value="1"&gt; Option 1 &lt;/option&gt;
+     &lt;option value="2"&gt; Option 2 &lt;/option&gt;
+     &lt;option value="3"&gt; Option 3 &lt;/option&gt;
+     &lt;option value="4"&gt; Option 4 &lt;/option&gt;
+&lt;/select>
 </pre>
 <pre>
 $('select.form-control').dropdownSelect();
