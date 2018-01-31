@@ -11,6 +11,11 @@ It's as easy as:
 &lt;/select>
 </pre>
 
+Add the css to hide the select fields and handle the text alignment. You might have to change the margins of the arrows if your padding isn't the same as the default Bootstrap padding on form fields.
+<pre>
+&lt;link rel="stylesheet" href="path/to/dropdownSelect.css"&gt;
+</pre>
+
 Add the dropdownSelect.js BEFORE adding the bootstrap.js file. My script will add all the necessary HTML and then bootstrap will do it's dropdown magic afterwards:
 <pre>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
